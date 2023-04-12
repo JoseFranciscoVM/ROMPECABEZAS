@@ -1,0 +1,90 @@
+
+body{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+        background-image: url("https://media.tenor.com/yLxEUEbVkrcAAAAC/retrogaming-video-games.gif");
+       
+      } 
+h2 {
+    background-color: #51ff00;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none ;
+  } 
+ 
+
+#board {
+    width: 729px;
+    height: 320px;
+    border: 5px double rgb(4, 247, 85);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 79px;
+    height: 79px;
+    border: 0.5px ridge rgb(9, 255, 0);
+}
+
+
+#pieces {
+    width: 972px;
+    height: 160px;
+    border: 2px solid rgb(32, 255, 3);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pieces img {
+    width: 79px;
+    height: 79px;
+    border: 0.5px ridge rgb(9, 255, 0);
+}
+.contenedor{
+  display: flex;
+  height: 100vh;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn{
+  background-color:rgb(32, 255, 3);
+  position: relative;
+  padding: 20px 50px;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 10px;
+  text-indent: 10px;
+  z-index: 2;
+  border: 3px solid #ffffff;
+      
+  overflow: hidden;
+  }
+  audio{
+  background-color:  rgb(32, 255, 3);
+  position: relative;
+  padding: 20px 50px;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 10px;
+  text-indent: 10px;
+  z-index: 2;
+  border: 3px solid #ffffff;
+      
+  overflow: hidden;
+  
+  }
+
+
+
